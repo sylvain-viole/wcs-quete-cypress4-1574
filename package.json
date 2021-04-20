@@ -1,0 +1,27 @@
+{
+  "name": "wcs-quete-cypress4-1574",
+  "version": "1.0.0",
+  "description": "This repo hosts file UL / DL demo with cypress + plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylvain-viole/wcs-quete-cypress4-1574.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylvain-viole/wcs-quete-cypress4-1574/issues"
+  },
+  "homepage": "https://github.com/sylvain-viole/wcs-quete-cypress4-1574#readme",
+  "devDependencies": {
+    "cypress": "^7.1.0",
+    "cypress-downloadfile": "^1.2.0",
+    "cypress-file-upload": "^5.0.6"
+  }
+}
