@@ -15,6 +15,11 @@ describe('File UL and DL tests', () => {
     })
 
     it('Should upload file', () => {
+        cy.intercept("POST", "https://api.amplitude.com/", (req) => {
+            req.continue((res) => {
+                expect(res.body).to.include("success")
+            })
+        })
         cy.get(uploadPage.uploadLink).attachFile('fileToUpload.png')
         cy.get(uploadPage.toastMessage).should('contain.text', 'Upload Complete!')
     })
