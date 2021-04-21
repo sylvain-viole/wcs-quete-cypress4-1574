@@ -11,3 +11,4 @@ before_script:
   - node_modules/.bin/cypress --version
 
 script:
+- npm run cy:run
