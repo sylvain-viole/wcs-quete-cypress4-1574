@@ -11,4 +11,4 @@ before_script:
   - node_modules/.bin/cypress --version
 
 script:
-- cypress run
+- cypress run --record --key 9b5c67c0-cd08-4632-abda-3b4e46972d1b
